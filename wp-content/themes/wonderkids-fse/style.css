@@ -1,0 +1,224 @@
+/*
+Theme Name: WonderKids FSE
+Theme URI: https://gracethemes.com/themes/free-nursery-school-wordpress-theme/
+Author: Grace Themes
+Author URI: https://gracethemes.com/
+Description: The WonderKids FSE is a free nursery school WordPress theme for primary schools, universities, academy, secondary school, LMS, training center and educational institutions. WonderKids FSE comes with a highly attractive yet sophisticated visual appeal that is perfectly designed to cater to a nursery website. It comes with high functionality and performance to provide users with the best website performance. It is a WooCommerce-friendly theme. Besides WooCommerce, many other popular plugins are compatible with this free Nursery School WordPress Theme, making it a complete website solution for all sorts of educational websites. You can effortlessly run it on various browsing platforms like Google, Yahoo, Bing, Mozilla Firefox, Chrome, etc, without encountering a single issue. Simultaneously, this theme can be operated on multiple devices like laptops, PCs, tablets, etc. Moreover, WonderKids FSE has qualified for Google's Mobile-friendly test; therefore, you will have no issue at all in operating it on your mobile phone. Being 100% retina-ready, this theme can deliver excellent quality visuals to make your nursery website stand out. If you use this theme for your website, you will be easily able to build a strong online presence in no time! 
+
+Version: 1.0
+License: GNU General Public License version 2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wonderkids-fse
+Requires PHP:  5.6
+Tested up to: 6.6
+Tags:blog, news, one-column, two-columns, right-sidebar, block-styles, custom-colors, editor-style, custom-background, custom-menu, featured-images, template-editing, full-site-editing, block-patterns,  threaded-comments, wide-blocks, translation-ready
+WonderKids FSE WordPress Theme has been created by Grace Themes(gracethemes.com), 2025.
+WonderKids FSE WordPress Theme is released under the terms of GNU GPL
+*/
+body.page-template-front .site-main-header {  
+	width:100%; 
+	z-index:999;	
+	background:transparent !important; 
+	position: absolute !important;
+}
+.site-main-header{  
+	position:relative;
+	background-color:#fa6f63; 
+}
+.clear{ clear:both; }
+
+/*dropdown menu background color*/
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container{ 
+	background-color:#ffffff;
+}
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container li{ 
+	padding:5px 0; 
+	border-bottom:1px solid #ddd !important;
+}
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu{ 
+	padding-top:30px !important
+}
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu li ul{ 
+	padding-top:0 !important; 
+	left:100% !important; 
+	right:auto !important;
+}
+.header-navigation.wp-block-navigation{ padding:5px 0 !important;}
+
+.logo {  
+    position: relative;
+}
+.header_right_menu{	
+	position:relative;
+}
+
+#header, div#page hr:nth-child(2), div#page hr:last-child, #footer {
+	display:none !important
+}
+
+.elementor-widget-wrap.elementor-element-populated {
+	padding-top: 0 !important
+}
+
+.quality-servicesBX figure.wp-block-image{ margin-top:-100px !important;}
+.fse-sections-02{ position:relative !important;}
+.welcome-wrap{ position:relative  !important; z-index:9999;}
+.fse-sections-02::before {content: ''; background-image: url(assets/images/welcome-shapesbg.png); background-repeat: no-repeat; width: 1192px; height: 722px; margin:0 auto; position: absolute; left: 0; right:0; top: -5px;   z-index: 0;}  
+.services_image_box .elementor-image-box-img {margin-top:-65px !important;}
+
+/* = Sidebar CSS
+----------------------------------------------- */
+.st-widgetBX ul.wp-block-latest-posts li{ 
+	margin-bottom:20px; 
+	min-height:80px;
+}
+.st-widgetBX ul.wp-block-latest-posts li a.wp-block-latest-posts__post-title{ 
+	margin-bottom:5px !important; 
+	display:block; 
+	line-height:20px;
+}
+
+/* = Contact Form 7 CSS
+----------------------------------------------- */
+.wpcf7{ 
+	margin:30px 0 0;padding:0;
+}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="email"]{ 
+	width:40%;	
+	color:#797979;
+	margin-bottom:0;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	height:40px;
+	padding:0 15px;
+}	
+.wpcf7 textarea{
+	color:#797979;
+	margin-bottom:25px;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	padding:10px;
+	width:60%;
+	height:160px;
+	font-size:12px;
+}
+.wpcf7 input[type="submit"]{
+	border-radius:40px;	
+	cursor:pointer;
+	background-color:#60c19f;
+	padding:20px 40px;
+	color:#ffffff;
+	font-weight:600;
+	border:none;
+	font-size:16px;
+	width:auto;	
+	text-transform:uppercase;
+}
+.wpcf7 input[type="submit"]:hover{
+	background-color:#101010;
+}
+
+
+
+/* = Blog page Design CSS
+----------------------------------------------- */
+ul.blog-list-style{ 
+	margin:0; 
+	padding:0; 
+}
+ul.blog-list-style li{ 
+	margin-bottom:25px; 	
+	display:flow-root; 
+	padding:30px;
+	border-radius:5px; 
+	box-shadow:0 0 30px rgb(193 193 193/30%);
+	
+}
+ul.blog-list-style li .blog-thumbx{ 
+	margin:0 35px 20px 0;
+}
+ul.blog-list-style li a.wp-block-post-excerpt__more-link{ 
+	padding:10px 20px; border-radius:10px
+}
+
+ul.blog-list-style li .blog-thumbx.wp-block-post-featured-image a,
+ul.blog-list-style li .blog-thumbx.wp-block-post-featured-image img{ 
+	height:auto;
+}
+.wp-block-group.sidebar-blog .st-widgetBX{ 
+	box-shadow:0 0 30px rgb(193 193 193/30%);
+}
+
+.wp-block-group.PostStyle-1{ 
+	padding:30px;	
+	box-shadow:0 0 30px rgb(193 193 193/30%);
+	border-radius:5px; 
+	display:flow-root; 
+}
+.wp-block-column.fse-page-layout{
+	padding:30px;
+	border-radius:5px; 
+	display:flow-root; 
+	box-shadow:0 0 30px rgb(193 193 193/30%);
+}
+
+
+
+/* = Footer CSS
+----------------------------------------------- */
+.site-footer{ 
+	position:relative;
+}
+.site-footer h3.wp-block-heading{ 
+	position:relative; 
+}
+
+
+footer.wp-block-template-part{ 
+	margin-block-start:0 !important
+}
+
+.Footer-QuickLinks{ 
+	list-style:none !important; 
+	padding:0 !important;
+}
+.Footer-QuickLinks li{ 
+	list-style:none !important; 
+	padding:5px 0 5px 0 !important;
+}
+.Footer-QuickLinks li a:hover{ 
+	text-decoration:none; 
+}
+.footer-latest-news li{ 
+	margin-bottom:10px;
+}
+.wp-block-social-links.footer-social li{ 
+	border-radius:10px;
+}
+.wp-block-social-links.footer-social li a{ 
+	padding:12px;
+}
+ul.fs-footer-post{ 
+	margin:0; 
+	padding:0;
+}
+ul.fs-footer-post li{ 
+	list-style:none; 
+	margin-bottom:30px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image{ 
+	margin-top:6px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image img{ 
+	border-radius:10px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__post-title{ 
+	margin-bottom:15px; 
+	display:block; 
+	line-height:22px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__post-title:hover{ 
+	color:#8cc73e;
+}
